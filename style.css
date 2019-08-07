@@ -202,3 +202,16 @@ body {
 	background: #386388;
 }
 /*footer*/
+.parent-footer {
+  background: #c70b4d;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 200px 100px;
+}
+.footer-top {
+    background-color: #131313;
+}
+.footer-bottom {
+    background-color: black;
+}
+
