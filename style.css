@@ -56,7 +56,7 @@ body {
     grid-row-end:3;
 }
 /* section two: */
-.section-two {
+.section-two, .section-four {
 	background: #accefe;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -200,3 +200,4 @@ body {
 .distract {
 	background: #386388;
 }
+/*section five: s*/
