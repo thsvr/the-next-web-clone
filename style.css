@@ -27,22 +27,32 @@ body {
 }
 /* first section: */
 .section-one {
-    background-color: #abc123; 
+    background-color: red; 
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 240px 240px; 
+    grid-template-rows: 240px 240px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 .left-img{
     background-color: blueviolet;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end:3;
+    grid-row-end: 3;
 }
-.right-imgs {
+.right-img-top {
     background-color: blue;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end:2;
 }
+.right-img-bottom {
+    background-color: goldenrod;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end:3;
+}
+
