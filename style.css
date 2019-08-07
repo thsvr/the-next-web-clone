@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+#nav-container {
+	height: 72px;
+}
+.nav-list li {
+	display: inline-block;
+	list-style: none;
+}
+.first-list {
+	background: #131313;
+	margin: 0px;
+	padding: 0px;
+	height: 33px;
+}
+.second-list {
+	background: #aacbde;
+	margin: 0px;
+	padding: 0px;
+	height: 55px;
+}
