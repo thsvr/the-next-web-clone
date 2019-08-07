@@ -170,7 +170,33 @@ body {
 }
 /* section four: */
 .section-four {
+  background: #fecadc;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  grid-auto-rows: auto;
+}
+.app {
+	background: #386388;
+}
+.gear {
+	background: #386388;
+}
+.tech {
+	background: #386388;
+}
+.creative {
+	background: #386388;
+}
+.podium {
+	background: #386388;
+}
+.insight {
+	background: #386388;
+}
+.launch {
+	background: #386388;
+}
+.distract {
+	background: #386388;
 }
