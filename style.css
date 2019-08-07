@@ -42,28 +42,29 @@ body {
     grid-row-end: 3;
 }
 .right-img-top {
-    background-color: blue;
+    background-color:blueviolet;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end:2;
 }
 .right-img-bottom {
-    background-color: goldenrod;
+    background-color: blueviolet;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end:3;
 }
-/* section two: */
-.section-two, .section-four {
+/* section two and section five: */
+.section-two, .section-five {
 	background: #accefe;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 240px 240px;
+    grid-template-rows: 240px 240px;
+    grid-gap: 10px;
 }
 .col-1 {
-	background: #3d3a6d;
+	background: #03c56d;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 1;
@@ -77,42 +78,42 @@ body {
 	grid-row-end: 2;
 }
 .col-3 {
-	background: #1a3e6d;
+	background: #03c56d;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
 .col-4 {
-	background: #33356d;
+	background: #03c56d;
 	grid-column-start: 4;
 	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
 .col-5 {
-	background: #ee3a6d;
+	background: #03c56d;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
 }
 .col-6 {
-	background: #cdc56d;
+	background: #03c56d;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 2;
 	grid-row-end: 3;
 }
 .col-7 {
-	background: #ddac00;
+	background: #03c56d;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
 	grid-row-end: 3;
 }
 .col-8 {
-	background: #ff356d;
+	background: #03c56d;
 	grid-column-start: 4;
 	grid-column-end: 5;
 	grid-row-start: 2;
@@ -120,7 +121,7 @@ body {
 }
 /* section three:*/
 .section-three {
-    background-color: grey;
+    background-color:pink;
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: repeat(4, 1fr);
@@ -141,7 +142,7 @@ body {
 	grid-row-end: 2;
 }
 .s3-10m {
-    background: magenta;
+    background: greenyellow;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	grid-row-start: 2;
@@ -155,14 +156,14 @@ body {
 	grid-row-end: 3;
 }
 .s3-165m {
-    background: orangered;
+    background: greenyellow;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
 	grid-row-end: 3;
 }
 .s3-2m {
-    background: brown;
+    background:greenyellow;
 	grid-column-start: 4;
 	grid-column-end: 5;
 	grid-row-start: 2;
@@ -200,4 +201,4 @@ body {
 .distract {
 	background: #386388;
 }
-/*section five: s*/
+/*footer*/
