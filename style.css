@@ -104,7 +104,7 @@ body {
 	grid-row-end: 3;
 }
 .col-7 {
-	background: #003e6d;
+	background: #ddac00;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	grid-row-start: 2;
