@@ -180,6 +180,14 @@ body {
 .latest-funding {
 	flex-direction: column;
 }
-
 }
+/* small screen width less than 769 first break point */
+@media (max-width: 768px) {
+/*nav bar: */
+.first-list {
+	display: none;
+}
+}
+
+
 
