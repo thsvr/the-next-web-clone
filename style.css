@@ -120,6 +120,11 @@ body {
 	grid-row-end: 3;
 }
 /* section three:*/
+.latest-funding {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .section-three {
     background: #fecadc;
     display: grid;
@@ -232,7 +237,13 @@ body {
 }
 .section-three {
     grid-template-columns: repeat(3, 1fr);
-}	
+}
+.s3-2m {
+	display: none;
+}
+.latest-funding {
+	flex-direction: column;
+}
 
 }
 
