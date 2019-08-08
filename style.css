@@ -27,7 +27,7 @@ body {
 }
 /* section one : */
 .section-one {
-    background-color: red; 
+    background-color: red;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 240px 240px;
@@ -213,5 +213,12 @@ body {
 }
 .footer-bottom {
     background-color: black;
+}
+/* medium screen width less than 1023px: first break point */
+@media (max-width: 1023px) and (min-width: 768px) {
+	.section-one {
+		background-color: rgb(15, 236, 100);
+		grid-template-rows: 60vh 60vh;
+	}
 }
 
