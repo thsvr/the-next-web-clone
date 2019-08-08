@@ -216,9 +216,44 @@ body {
 }
 /* medium screen width less than 1023px: first break point */
 @media (max-width: 1023px) and (min-width: 768px) {
+/* section one : */
 	.section-one {
 		background-color: rgb(15, 236, 100);
 		grid-template-rows: 60vh 60vh;
 	}
+/* section two and section five: */
+.section-two, .section-five {
+	background: #240221;
+	grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 240px 240px 240px;
+    grid-gap: 10px;
+}
+.col-4 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.col-5 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+.col-6 {
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+.col-7 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}
+.col-8 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+}	
+
 }
 
