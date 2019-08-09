@@ -38,24 +38,33 @@ header {
     grid-template-columns: 2fr 1fr;
     grid-auto-rows: auto;
     grid-column-gap: 10px;
-    grid-row-gap: 10px;
+	grid-row-gap: 10px;
+	height: 75vh;
+    max-height: 560px;
 }
 .left-img{
-	background-color: blueviolet;
+	background: blueviolet url(images/s1/s1-3.jpeg)  no-repeat;
+	background-size: cover;
+	background-position: center;
 	grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 3;
+	grid-row-end: 3;
+	height: 100%;
+    width: 100%;
 }
 .right-img-top {
-    background-color:blueviolet;
+    background: blueviolet url(images/s1/s1-1.jpeg)  no-repeat;
+	background-size: cover;
+	background-position: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end:2;
 }
 .right-img-bottom {
-    background-color: blueviolet;
+    background: blueviolet url(images/s1/s1-2.jpeg) no-repeat;
+	background-size: cover;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -195,7 +204,9 @@ header {
 /* section one : */
 	.section-one {
 		background-color: rgb(15, 236, 100);
-		grid-template-rows: 60vh 60vh;
+		grid-template-rows: auto;
+		height: 61vh;
+        max-height: 560px;
 	}
 /* section two and section five: */
 .section-two, .section-five {
