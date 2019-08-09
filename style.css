@@ -40,7 +40,9 @@ header {
     grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	height: 75vh;
-    max-height: 560px;
+	max-height: 560px;
+	margin-bottom: 5vh;
+	padding: 2vh;
 }
 .left-img{
 	background: blueviolet url(images/s1/s1-3.jpeg)  no-repeat;
@@ -71,12 +73,15 @@ header {
     grid-row-end:3;
 }
 /* section two and section five: */
+figure {
+	margin: 0px;
+}
 .section-two, .section-five {
 	background: #accefe;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 10px;
+	grid-gap: 10px;
 }
 .col-1 {
 	background: #03c56d;
@@ -244,7 +249,34 @@ header {
 		display: table;
 		height: 100%;
 	}
-	.section-one, .section-two, .latest-funding, 
+	.section-one {
+		background-color: rgb(28, 6, 107);
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: 40vh 40vh 40vh;
+		grid-row-gap: 5px;
+		height: 125vh;
+		max-height: 200vh;
+	}
+	.left-img {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+	.right-img-top {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+	.right-img-bottom {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+	}	
+	.section-two, .latest-funding, 
 	.section-three, .section-four, 
 	.section-five {
 		display: flex;
@@ -256,7 +288,7 @@ header {
 		flex-direction: row;
 	}
 	.section-two img, .section-five img {
-		height:13vh;
+		height:18vh;
 		width:13vw;
 	}
 }
