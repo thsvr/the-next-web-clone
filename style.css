@@ -124,13 +124,16 @@ figure {
 }
 .s3-title {
 	background: #3d3a6d;
+	color: red;
 	padding: 10px 15px;
-	text-align: center;
 }
 .s3-links {
 	background: #3d3a6d;
 	padding: 10px 15px;
-	text-align: center;
+}
+.s3-links a {
+	color: red;
+	text-decoration: none;
 }
 .s3-10m h3, .s3-165m h3, .s3-23m h3, .s3-2m h3 {
 	background: #f42;
@@ -320,6 +323,17 @@ figure {
 	.section-two img, .section-five img {
 		height:15vh;
 		width:35vw; 
+	}
+	.s3-2m {
+		display: none;
+	}
+	.s3-links {
+		display: flex;
+		flex-direction: column;
+		line-height: 30px;
+	}
+	.s3-links span {
+		display: none;
 	}
 }
 
