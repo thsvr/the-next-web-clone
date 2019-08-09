@@ -288,8 +288,8 @@ figure {
 		flex-direction: row;
 	}
 	.section-two img, .section-five img {
-		height:18vh;
-		width:13vw;
+		height:15vh;
+		width:35vw; 
 	}
 }
 
