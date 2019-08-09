@@ -118,17 +118,47 @@ figure {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: auto;
+	grid-auto-rows: auto;
+	padding: 10px 15px;
+	text-align: center;
 }
 .s3-title {
-    background: #3d3a6d;
+	background: #3d3a6d;
+	padding: 10px 15px;
+	text-align: center;
 }
 .s3-links {
-    background: #3d3a6d;
+	background: #3d3a6d;
+	padding: 10px 15px;
+	text-align: center;
 }
-.s3-10m {
-    background: greenyellow;
+.s3-10m h3, .s3-165m h3, .s3-23m h3, .s3-2m h3 {
+	background: #f42;
+	color: #fff;
+	height: 12vh;
+	margin: 0px;
+	padding-top: 7px;
 } 
+.s3-10m, .s3-165m, .s3-23m, .s3-2m {
+	position: relative;
+} 
+.s3-10m a, .s3-165m a, .s3-23m a, .s3-2m a {
+	color: #555;
+	text-decoration: none;
+} 
+.s3-10m img, .s3-165m img, .s3-23m img, .s3-2m img {
+	left: 10px;
+	position: absolute;
+	top: 10px;
+}
+.txt {
+	color: #000;
+    background: rgba(255,68,34,.08);
+}
+.text-desc {
+	border-bottom: 1px solid rgb(230, 98, 75);
+	color: #000;
+}
 .s3-23m {
     background: greenyellow;
 }
