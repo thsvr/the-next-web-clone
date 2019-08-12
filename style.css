@@ -20,6 +20,7 @@ header {
   top: 0;
   width: 100%;
 }
+
 .logo {
 	display: none;
 }
@@ -264,7 +265,7 @@ figure {
 /* medium screen width less than 1023px: first break point */
 @media (max-width: 1023px) and (min-width: 768px) {
 	/* nav bar */
-	#nav-container {
+	.scroll-nav {
 		display: grid;
 		grid-template-columns: 1fr 8fr;
 		grid-template-rows: 50px 50px;
