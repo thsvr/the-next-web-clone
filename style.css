@@ -346,22 +346,27 @@ figure {
 		display: none;
 	}
 	/*section four:*/
-	.app {
+	.sec4 {
 		display: flex;
 		flex-direction: column;
 	}
-	.main-img {
-		text-align: center;
-
+	.main-fig {
+		display: flex;
+		height: 400px;
+		margin: auto;
+		width:400px;		
 	}
-	.app-flex {
+	.main-img {
+		height: 100%;
+		width:100%;		
+	}
+	.section-flex {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
+		margin-top: 10px;
 	}
-	.main-img {
-		
-	}
+	
 }
 
 
