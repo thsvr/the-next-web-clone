@@ -12,6 +12,14 @@ header {
 #nav-container {
 	height: 72px;
 }
+#main-nav {
+	z-index: 5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .logo {
 	display: none;
 }
