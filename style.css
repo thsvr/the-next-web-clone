@@ -345,6 +345,23 @@ figure {
 	.s3-links span {
 		display: none;
 	}
+	/*section four:*/
+	.app {
+		display: flex;
+		flex-direction: column;
+	}
+	.main-img {
+		text-align: center;
+
+	}
+	.app-flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.main-img {
+		
+	}
 }
 
 
