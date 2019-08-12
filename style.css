@@ -350,6 +350,21 @@ figure {
 		display: flex;
 		flex-direction: column;
 	}
+	.sec4 h3, h4 {
+		color: red;
+	}
+	.main-ul {
+		list-style: none;
+	}
+	.main-ul li::before {
+		content: "•"; 
+		color: red;
+		margin: 10px;
+	}
+	.main-ul li {
+		border-bottom: 1px solid #555;
+		line-height: 30px;
+	}
 	.main-fig {
 		display: flex;
 		height: 400px;
@@ -361,12 +376,12 @@ figure {
 		width:100%;		
 	}
 	.section-flex {
+		background-color: #fff0f5;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		margin-top: 10px;
-	}
-	
+	}	
 }
 
 
