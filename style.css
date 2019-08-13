@@ -27,6 +27,31 @@ header {
 	display: inline-block;
 	list-style: none;
 }
+li {
+   display: block;
+   transition-duration: 0.5s;
+}
+ul li ul {
+  background: #131313;
+  display: none;
+  left: 1%;
+  margin-top: .1rem;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  visibility: hidden;
+}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
 .first-list {
 	margin: 0px;
 	padding: 0px;
@@ -34,12 +59,27 @@ header {
 }
 .top-list {
 	background: #131313;
+	color: #aaa;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: .45em 10px;
+}
+.first-dropdown, .second-dropdown {
+	position: relative;
+}
+.second-top-list {
+	margin: 0px;
 }
 .second-top-list li {
 	display: inline-block;
+	text-align: center;
+}
+.first-list li a, .second-top-list li a {
+	color: #aaa;
+}
+.first-list li a:hover, .second-top-list li a:hover {
+	color: #fff;
 }
 .second-list {
 	background: #aacbde;
