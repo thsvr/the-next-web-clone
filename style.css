@@ -105,6 +105,9 @@ a {
 	padding: 20px 15px;
 	height: 55px;
 }
+.second-list li {
+	
+}
 /* section one : */
 .section-one {
     background-color: red;
@@ -326,59 +329,10 @@ figure {
   grid-template-rows: 200px 100px;
 }
 .footer-top {
-	align-items: center;
-	background-color: #131313;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.footer-icons {
-	display: flex;
-	flex-direction: row;
-}
-.footer-icons li {
-	background-color: grey;
-	border-radius: 30px;
-	color: white;
-	cursor: pointer;
-	font-size: 13px;
-	padding: 10px;
-	margin:5px;
-}
-.footer-icons li:hover {
-	background-color: #131313;
-}
-.footer-links {
-	display: flex;
-	flex-direction: row;
-	font-size: 13px;
-	color:grey;
-	cursor: pointer;
-}
-.footer-links li:hover {
-	color:white;
+    background-color: #131313;
 }
 .footer-bottom {
-	background-color: black;
-	color: white;
-	display: flex;
-}
-.footer-bottom ul {
-	display: flex;
-	flex-direction: row;
-	text-align: center;
-	width:100%;
-	justify-content: center;
-	align-items: center;
-}
-.footer-bottom li {
-	font-size: 13px;
-}
-.heart {
-	color: red;
-}
-.footer-links li {	
-	padding:5px;
+    background-color: black;
 }
 /* medium screen width less than 1023px: first break point */
 @media (max-width: 1023px) and (min-width: 768px) {
@@ -581,10 +535,6 @@ figure {
 		justify-content: space-around;
 		margin-top: 10px;
 	}	
-/* footer: */
-.footer-bottom ul {
-	flex-direction: column;
-}
 }
 
 
