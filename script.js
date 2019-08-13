@@ -2,7 +2,6 @@
 window.onscroll = function() {myFunction()};
 
 // Get the header
-//var header-list = document.getElementById("hidden-logo");
 var header = document.getElementById("main-nav");
 
 // Get the offset position of the navbar
@@ -13,7 +12,6 @@ var sticky = header.offsetTop;
 function myFunction() {
   if (window.pageYOffset > sticky) {
     header.classList.add("sticky");
-    //header-list.classList.add("logo-list");
   } else {
     header.classList.remove("sticky");
   }

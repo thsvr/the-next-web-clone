@@ -13,15 +13,27 @@ header {
 	height: 72px;
 }
 #main-nav {
+	display: flex;
+	flex-direction: row;
 	z-index: 5;
 }
-.logo {
-	display: none;
+#logo-container {
+	align-items: center;
+	display: flex;
+	background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    justify-content: center;
+    width: 8%;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.logo-list {
+	display: table;
+	position: fixed;
+    top: 0;
 }
 .nav-list li {
 	display: inline-block;
@@ -100,10 +112,17 @@ a {
 	color: #fff;
 }
 .second-list {
-	background: #aacbde;
+	background: #ffffff;
 	margin: 0px;
 	padding: 20px 15px;
 	height: 55px;
+	width: 92%;
+}
+.second-list li a, #logo-container a span {
+	font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #aaa;
 }
 /* section one : */
 .section-one {
@@ -388,8 +407,8 @@ figure {
 		grid-template-columns: 1fr 8fr;
 		grid-template-rows: 50px 50px;
 	}
-	.logo {
-		display: table;
+	.second-top-list {
+		display: none;
 	}
 	.first-list {
 		grid-column-start: 2;
@@ -468,7 +487,7 @@ figure {
      header {
 		 margin-bottom: 0px;
 	 }
-	.first-list {
+	.top-list {
 		display: none;
 	}
 	.second-list {
@@ -479,9 +498,14 @@ figure {
 		grid-template-columns: 1fr 8fr;
 		grid-template-rows: 50px;
 	}
-	.logo {
-		display: table;
-		height: 100%;
+	#main-nav {
+		display: flex;
+		flex-direction: row;
+		width: 60em;
+		z-index: 5;
+	}
+	ul.second-list li {
+		display: none;
 	}
 	.section-one {
 		background-color: rgb(28, 6, 107);
