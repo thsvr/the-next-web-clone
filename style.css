@@ -378,7 +378,7 @@ figure {
 	color: red;
 }
 .footer-links li {	
-	padding:5px;
+	padding:8px;
 }
 /* medium screen width less than 1023px: first break point */
 @media (max-width: 1023px) and (min-width: 768px) {
