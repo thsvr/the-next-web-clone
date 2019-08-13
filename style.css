@@ -331,6 +331,18 @@ figure {
 	display: flex;
 	justify-content: center;
 }
+.footer-icons {
+	display: flex;
+	flex-direction: row;
+}
+.footer-links {
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.footer-links li {
+	padding:5px;
+}
 .footer-bottom {
 	align-items: center;
 	background-color: black;
