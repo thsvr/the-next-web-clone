@@ -15,21 +15,19 @@ header {
 #main-nav {
 	z-index: 5;
 }
+.logo {
+	display: none;
+}
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.logo {
-	display: none;
 }
 .nav-list li {
 	display: inline-block;
 	list-style: none;
 }
 .first-list {
-	background: #131313;
 	margin: 0px;
 	padding: 0px;
 	height: 33px;
