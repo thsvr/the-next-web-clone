@@ -23,17 +23,12 @@ header {
 	background-color: #f42;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     justify-content: center;
-    width: 8%;
+    width: 15%;
 }
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
-.logo-list {
-	display: table;
-	position: fixed;
-    top: 0;
 }
 .nav-list li {
 	display: inline-block;
@@ -123,6 +118,27 @@ a {
     font-weight: 500;
     text-transform: uppercase;
     color: #aaa;
+}
+.nav-icons {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#search-icon {
+	border-left: 1px solid #eee;
+	padding: 20px;
+}
+.fa-search {
+	color: #aaa;
+}
+#menu-icon {
+	border-left: 1px solid #eee;
+	display: none;
+	padding: 20px;
+}
+.fa-bars {
+	color: #f42;
 }
 /* section one : */
 .section-one {
@@ -499,13 +515,23 @@ figure {
 		grid-template-rows: 50px;
 	}
 	#main-nav {
+		background: #ffffff;
+		border-bottom: 1px solid #eee;
 		display: flex;
 		flex-direction: row;
-		width: 60em;
-		z-index: 5;
+		justify-content: space-between;
+		position: fixed;
+        top: 0;
+		width: 100%;
 	}
-	ul.second-list li {
+	#logo-container {
+		width: 100px;
+	}
+	ul.second-list {
 		display: none;
+	}
+	#menu-icon {
+		display: block;
 	}
 	.section-one {
 		background-color: rgb(28, 6, 107);
