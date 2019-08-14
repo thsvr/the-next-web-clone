@@ -162,7 +162,13 @@ a {
     grid-row-start: 1;
 	grid-row-end: 3;
 	height: 100%;
-    width: 100%;
+	width: 100%;
+}
+.content-left-img {
+	color: white;
+	position: absolute;
+	top: 20%;
+	line-height: 20px;
 }
 .right-img-top {
     background: blueviolet url(images/s1/s1-1.jpeg)  no-repeat;
