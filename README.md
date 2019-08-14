@@ -2,9 +2,9 @@
 
 <a href="https://thenextweb.com/">The Next Web Original Version</a>.<br>
 
-# GitHub Page
+# Live version page
 
-<a href="#">Live version</a>
+<a href="https://raw.githack.com/thsvr/the-next-web-clone/main-content/index.html">Live version</a>
 
 
 # Built With:
