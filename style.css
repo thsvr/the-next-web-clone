@@ -153,7 +153,7 @@ a {
 	margin-bottom: 5vh;
 	padding: 2vh;
 }
-.left-img{
+.left-img {
 	background: blueviolet url(images/s1/s1-3.jpeg)  no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -162,13 +162,20 @@ a {
     grid-row-start: 1;
 	grid-row-end: 3;
 	height: 100%;
+	position: relative;
 	width: 100%;
 }
-.content-left-img {
+.content-left-img, .content-img-top, .content-img-bottom {
 	color: white;
+	position: absolute;	
+}
+.content-left-img {
+	top: 30%;
+}
+.content-left-img p {
 	position: absolute;
-	top: 20%;
-	line-height: 20px;
+	top: 70%;
+	font-size: 0.9em;
 }
 .right-img-top {
     background: blueviolet url(images/s1/s1-1.jpeg)  no-repeat;
@@ -177,7 +184,13 @@ a {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-    grid-row-end:2;
+	grid-row-end:2;
+	position: relative;
+}
+.content-img-top p {
+	position: absolute;
+	top: 70%;
+	font-size: 0.9em;
 }
 .right-img-bottom {
     background: blueviolet url(images/s1/s1-2.jpeg) no-repeat;
@@ -185,7 +198,13 @@ a {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
-    grid-row-end:3;
+	grid-row-end:3;
+	position: relative;
+}
+.content-img-bottom p {
+	position: absolute;
+	top: 68%;
+	font-size: 0.9em;
 }
 /* section two and section five: */
 figure {
