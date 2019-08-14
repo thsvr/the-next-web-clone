@@ -22,6 +22,7 @@ header {
 	display: flex;
 	background-color: #f42;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
+    height: 55px;
     justify-content: center;
     width: 15%;
 }
@@ -126,8 +127,9 @@ a {
 	justify-content: center;
 }
 #search-icon {
+	background: #fff;
 	border-left: 1px solid #eee;
-	padding: 20px;
+	padding: 19px 20px;
 }
 .fa-search {
 	color: #aaa;
@@ -165,16 +167,22 @@ a {
 	position: relative;
 	width: 100%;
 }
-.content-left-img, .content-img-top, .content-img-bottom {
+.content-left-img, .content-img-top, 
+.content-img-bottom {
 	color: white;
-	position: absolute;	
+	height: 100%;
+	left: 4%;
+	position: absolute;
 }
-.content-left-img {
+.content-img-top h3, .content-img-bottom h3 {
+	    	margin: 0px;
+	}
+/*.content-left-img {
 	top: 30%;
-}
+}*/
 .content-left-img p {
 	position: absolute;
-	top: 70%;
+	bottom: 2%;
 	font-size: 0.9em;
 }
 .right-img-top {
@@ -189,7 +197,7 @@ a {
 }
 .content-img-top p {
 	position: absolute;
-	top: 70%;
+	bottom: 1%;
 	font-size: 0.9em;
 }
 .right-img-bottom {
@@ -203,7 +211,7 @@ a {
 }
 .content-img-bottom p {
 	position: absolute;
-	top: 68%;
+	bottom: 1%;
 	font-size: 0.9em;
 }
 /* section two and section five: */
@@ -469,6 +477,10 @@ figure {
 		grid-template-rows: auto;
 		height: 61vh;
         max-height: 560px;
+	}
+	.content-left-img h3, .content-img-top h3, 
+	.content-img-bottom h3 {
+	    font-size: .8em;	
 	}
 /* section two and section five: */
 .section-two, .section-five {
