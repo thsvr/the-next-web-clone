@@ -353,6 +353,10 @@ figure {
   grid-gap: 10px;
   grid-auto-rows: auto;
 }
+.section-four figure {
+	height: 250px;
+	width: 100%;
+}
 /*section four:*/
 .sec4 {
 	display: flex;
@@ -514,6 +518,9 @@ figure {
 .sec4 {
 	display: flex;
 	flex-direction: column;
+}
+.section-four {
+  grid-template-columns: repeat(2, 1fr);
 }
 .sec4 h3, h4 {
 	color: red;
