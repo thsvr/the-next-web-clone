@@ -156,8 +156,9 @@ a {
 	margin-bottom: 5vh;
 	padding: 2vh;
 }
-.left-img {
+.left-img {	
 	background: url(images/s1/s1-3.jpeg)  no-repeat;
+	background-color: #c09;
 	background-size: cover;
 	background-position: center;
 	grid-column-start: 1;
@@ -168,6 +169,17 @@ a {
 	position: relative;
 	width: 100%;
 }
+.back-logo {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	width: 100%;
+}
+.content-left-img h3 {
+	position: relative;
+	top: 30%;
+}
+
 .content-left-img, .content-img-top, 
 .content-img-bottom {
 	color: white;
@@ -176,6 +188,7 @@ a {
 	left: 4%;
 	position: absolute;
 }
+
 .content-img-top h3, .content-img-bottom h3 {
 	margin: 0px;
 }
