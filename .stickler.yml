@@ -3,7 +3,7 @@
      eslint:
        config: "./eslint.config"
      csslint:
-       ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical,grid-template-columns'
+       ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical,grid-template-columns,grid-gap'
     files:
      ignore:
        - "src/generated/*"
