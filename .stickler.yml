@@ -1,7 +1,10 @@
-linters:
-  rubocop:
-    display_cop_names: true
-  csslint:
-  stylelint:
-  eslint:
-    config: './eslint.config'  
+    linters:
+     flake8:
+     eslint:
+       config: "./eslint.config"
+     csslint:
+       ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical,grid-template-columns'
+    files:
+     ignore:
+       - "src/generated/*"
+       - "webroot/bower_components/*" 
