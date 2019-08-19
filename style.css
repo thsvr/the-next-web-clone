@@ -496,6 +496,7 @@ figure {
 	.left-img .back-color {
 		width:100%;
 	}
+	
 /* section two and section five: */
 .section-two, .section-five {
 	grid-template-columns: repeat(3, 1fr);
@@ -503,7 +504,7 @@ figure {
 .section-three {
     grid-template-columns: repeat(3, 1fr);
 }
-.s3-2m {
+.s3-2m, .back-color, .back-logo {
 	display: none;
 }
 .latest-funding {
@@ -553,7 +554,7 @@ figure {
      header {
 		 margin-bottom: 0px;
 	 }
-	.top-list {
+	.top-list, .back-color, .back-logo {
 		display: none;
 	}
 	.second-list {
