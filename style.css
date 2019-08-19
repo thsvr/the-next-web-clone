@@ -158,7 +158,6 @@ a {
 }
 .left-img {	
 	background: url(images/s1/s1-3.jpeg)  no-repeat;
-	background-color: #c09;
 	background-size: cover;
 	background-position: center;
 	grid-column-start: 1;
@@ -169,33 +168,43 @@ a {
 	position: relative;
 	width: 100%;
 }
+.content-left-img,.left-img .back-color {
+	width:100%;
+}
 .back-logo {
 	position: absolute;
 	top: 5%;
 	left: 3%;
-	width: 100%;
+	width: 50%;
 }
 .content-left-img h3 {
-	position: relative;
-	top: 30%;
+	padding-left: 5%;
+	position: absolute;
+	top: 60%;
 }
-
+.content-left-img h2 {
+	padding-left: 5%;
+	position: absolute;
+	top: 45%;
+}
 .content-left-img, .content-img-top, 
 .content-img-bottom {
 	color: white;
 	cursor: pointer;
 	height: 100%;
-	left: 4%;
+	left: 0%;
 	position: absolute;
 }
 
 .content-img-top h3, .content-img-bottom h3 {
 	margin: 0px;
+	padding-left: 5%;
 }
 .content-left-img p {
 	position: absolute;
 	bottom: 2%;
 	font-size: 0.9em;
+	padding-left: 5%;
 }
 .right-img-top {
     background: url(images/s1/s1-1.jpeg)  no-repeat;
@@ -211,6 +220,7 @@ a {
 	position: absolute;
 	bottom: 1%;
 	font-size: 0.9em;
+	padding-left: 5%;
 }
 .right-img-bottom {
     background: url(images/s1/s1-2.jpeg) no-repeat;
@@ -225,6 +235,7 @@ a {
 	position: absolute;
 	bottom: 1%;
 	font-size: 0.9em;
+	padding-left: 5%;
 }
 /* section two and section five: */
 .title-sec2 a h3 {
@@ -482,6 +493,9 @@ figure {
 	.content-img-bottom h3 {
 	    font-size: .8em;	
 	}
+	.left-img .back-color {
+		width:100%;
+	}
 /* section two and section five: */
 .section-two, .section-five {
 	grid-template-columns: repeat(3, 1fr);
@@ -576,6 +590,9 @@ figure {
 		grid-row-gap: 5px;
 		height: 125vh;
 		max-height: 200vh;
+	}
+	.left-img .back-color {
+		width:100%;
 	}
 	.left-img {
 		grid-column-start: 1;
