@@ -27,7 +27,6 @@ header {
 #logo-container {
   align-items: center;
   background: linear-gradient(to bottom right, #c09, #f42 85%);
-
   display: flex;  
   height: 55px;
   justify-content: center;
@@ -54,6 +53,13 @@ ul li ul {
   position: absolute;
   transition: all 0.5s ease;
   visibility: hidden;
+}
+
+ul li ul li {
+  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+  clear: both;
+  padding: 8px 5px;
+  width: 100%;
 }
 
 .nav-list li {
@@ -92,13 +98,6 @@ ul li ul:hover {
   visibility: visible;
 }
 
-ul li ul li {
-  border-top: 1px solid hsla(0, 0%, 100%, 0.1);
-  clear: both;
-  padding: 8px 5px;
-  width: 100%;
-}
-
 .footer-icons li {
   background-color: #333;
   border-radius: 50%;
@@ -109,6 +108,7 @@ ul li ul li {
   padding: 10px;
   margin: 5px;
 }
+
 .second-top-list li {
   display: inline-block;
   text-align: center;
@@ -120,6 +120,12 @@ ul li ul li {
 
 .footer-bottom li {
   font-size: 13px;
+}
+
+.main-ul li {
+  border-bottom: 1px solid #555;
+  color: #333;
+  line-height: 30px;
 }
 
 ul li ul li:first-child {
@@ -142,6 +148,10 @@ ul li ul li:first-child {
   padding: 0.45em 10px 0 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .s3-links a {
   color: red;
   text-decoration: none;
@@ -149,10 +159,6 @@ ul li ul li:first-child {
 
 .second-top-list {
   margin: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 .s3-10m a,
@@ -463,6 +469,7 @@ figure {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .s3-title {
   color: red;
   font-size: 18px;
@@ -544,12 +551,6 @@ figure {
   content: "•";
   color: red;
   margin: 10px;
-}
-
-.main-ul li {
-  border-bottom: 1px solid #555;
-  color: #333;
-  line-height: 30px;
 }
 
 .main-ul li:hover {
@@ -666,9 +667,11 @@ figure {
   .content-img-bottom h3 {
     font-size: 0.8em;
   }
+
   .back-color {
 	display: none; 
   }
+
   .left-img .back-color {
     width: 100%;
   }
