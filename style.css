@@ -75,6 +75,15 @@ ul li ul.second-dropdown {
   padding-left: 5px;
 }
 
+.footer-bottom ul {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
 ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover {
@@ -88,6 +97,17 @@ ul li ul li {
   clear: both;
   padding: 8px 5px;
   width: 100%;
+}
+
+.footer-icons li {
+	background-color: #333;
+	border-radius: 50%;
+	border: 2px solid #333;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 10px;
+	margin: 5px;
 }
 
 .second-top-list li {
@@ -579,17 +599,6 @@ figure {
   flex-direction: row;
 }
 
-.footer-icons li {
-  background-color: #333;
-  border-radius: 50%;
-  border: 2px solid #333;
-  color: white;
-  cursor: pointer;
-  font-size: 14px;
-  padding: 10px;
-  margin: 5px;
-}
-
 .footer-icons li:hover {
   background-color: #131313;
 }
@@ -610,15 +619,6 @@ figure {
   background-color: black;
   color: white;
   display: flex;
-}
-
-.footer-bottom ul {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
 }
 
 .heart {
