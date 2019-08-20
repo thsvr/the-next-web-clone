@@ -95,8 +95,8 @@ ul li ul li:first-child {
 }
 
 .first-list {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   height: 33px;
 }
 
@@ -107,11 +107,11 @@ ul li ul li:first-child {
   flex-direction: row;
   height: 31px;
   justify-content: space-between;
-  padding: 0.45em 10px 0px 10px;
+  padding: 0.45em 10px 0 10px;
 }
 
 .second-top-list {
-  margin: 0px;
+  margin: 0;
 }
 
 .second-top-list li {
@@ -134,8 +134,8 @@ a {
 }
 
 .second-list {
-  background: #ffffff;
-  margin: 0px;
+  background: #fff;
+  margin: 0;
   padding: 20px 15px;
   height: 55px;
   width: 92%;
@@ -238,7 +238,7 @@ a {
 
 .content-img-top h3,
 .content-img-bottom h3 {
-  margin: 0px;
+  margin: 0;
   padding-left: 5%;
 }
 
@@ -310,7 +310,7 @@ a {
 }
 
 figure {
-  margin: 0px;
+  margin: 0;
 }
 
 .section-two,
@@ -319,7 +319,7 @@ figure {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: auto;
   grid-gap: 10px;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .section-two img,
@@ -335,7 +335,7 @@ figure {
 
 .section-two p:hover,
 .section-five p:hover {
-  color: #333333;
+  color: #333;
   cursor: pointer;
 }
 
@@ -439,7 +439,7 @@ figure {
   background: #f42;
   color: #fff;
   height: 12vh;
-  margin: 0px;
+  margin: 0;
   padding-top: 7px;
 }
 
@@ -483,7 +483,7 @@ figure {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: auto;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .section-four figure {
@@ -519,7 +519,7 @@ h4 {
 
 .main-ul li {
   border-bottom: 1px solid #555;
-  color: #333333;
+  color: #333;
   line-height: 30px;
 }
 
@@ -570,9 +570,9 @@ h4 {
 }
 
 .footer-icons li {
-  background-color: #333333;
+  background-color: #333;
   border-radius: 50%;
-  border: 2px solid #333333;
+  border: 2px solid #333;
   color: white;
   cursor: pointer;
   font-size: 14px;
@@ -746,10 +746,10 @@ h4 {
 /* small screen width less than 769 first break point */
 
 @media (max-width: 768px) {
-  /*nav bar: */
+  /* nav bar: */
 
   header {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .top-list,
@@ -769,7 +769,7 @@ h4 {
   }
 
   #main-nav {
-    background: #ffffff;
+    background: #fff;
     border-bottom: 1px solid #eee;
     display: flex;
     flex-direction: row;
@@ -924,7 +924,7 @@ h4 {
   }
 
   /* footer: */
-  
+
   .footer-bottom ul {
     flex-direction: column;
   }
