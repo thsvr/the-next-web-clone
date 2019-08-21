@@ -476,7 +476,7 @@ figure {
   font-weight: bold;
   padding: 10px 15px;
 }
- 
+
 .s3-title:hover {
   color: black;
   cursor: pointer;
@@ -669,7 +669,7 @@ figure {
   }
 
   .back-color {
-	  display: none; 
+    display: none;
   }
 
   .left-img .back-color {
