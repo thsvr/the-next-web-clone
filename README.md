@@ -1,4 +1,4 @@
-# the-next-web-clone
+# The-next-web-clone
 
 <a href="https://thenextweb.com/">The Next Web Original Version</a>.<br>
 
